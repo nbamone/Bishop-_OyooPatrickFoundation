@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.manu-bar{
+    background: rgb(47, 231, 23);
+    text-align: center;
+}
+.manu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.manu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.manu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .manu-bar ul li:hover{
+    background: #3aab0d;
+    border-radius: 3px;
+}
